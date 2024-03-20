@@ -3,11 +3,9 @@ import React, { useState, useEffect }  from 'react';
 const Data = () => {
   const [subtitleIndex, setSubtitleIndex] = useState(0);
   const subtitles = [
-    'Software Developer',
-    'Full Stack Developer',
-    'Java Developer',
-    'Cloud Computing Enthusiast',
-    'React Enthusiast'
+    'AEM Developer',
+    'Frontend Developer',
+    'Cloud Computing Enthusiast'
   ];
 
   const subLength = subtitles.length;
@@ -23,7 +21,7 @@ const Data = () => {
 
   return (
     <div className="home__data">
-        <h1 className="home__title">Aharnish Solanki
+        <h1 className="home__title">Meet Jain
         <svg
                   width="36"
                   height="36"
@@ -75,7 +73,7 @@ const Data = () => {
                 </svg></h1>
                 <h3 className="home__subtitle">{subtitles[subtitleIndex]}</h3>
                 {/* <h3 className="home__subtitle">Software Developer</h3> */}
-                <p className="home__description">Hi, I am Aharnish Solanki</p>
+                <p className="home__description">Hi, I am Meet Jain</p>
                 <a href="#contact" className="button button--flex">
                     Say Hello {"   "}
                     <i class='bx bxs-send bx-flip-horizontal bx-tada' style={{ marginLeft: '10px' }}></i>

@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.css';
-import AboutImg  from '../../assets/aharabout.jpg';
-import Resume from '../../assets/Aharnish_Resume.pdf';
+import AboutImg  from '../../assets/meetabout.jpeg';
+import Resume from '../../assets/Meet_Resume.pdf';
 import Info from './Info';
 
 const Aboutjs = () => {
@@ -14,7 +14,7 @@ const Aboutjs = () => {
             <img src={AboutImg} alt="" className="about__img"  />
             <div className="about_data">
               <Info />
-              <p className="about__description">Hello! I'm, a dedicated software developer. I specialize in crafting clean, efficient code and building sleek web applications. With a passion for problem-solving, I thrive in collaborative, dynamic environments. Let's turn your ideas into reality!
+              <p className="about__description">Adept AEM Developer proficient in creating dynamic web solutions. Skilled in Adobe Experience Manager for crafting seamless digital experiences.
 </p>
               <a download="" href={Resume} className="button button--flex">
                 Download Resume

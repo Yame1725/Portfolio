@@ -16,25 +16,25 @@ const Contact = () => {
                     <div className="contact__card">
                         <i className="bx bxl-mail-send contact__card-icon"></i>
                         <h3 className="contact__card-title">Email</h3>
-                        <span className="contact__card-data">ahar2899@gmail.com</span>
+                        <span className="contact__card-data">jain01meet@gmail.com</span>
 
-                        <a href="mailto:ahar2899@gmail.com" className="contact__button">Write Me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                        <a href="mailto:jain01meet@gmail.com" className="contact__button">Write Me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                     </div>
 
                     <div className="contact__card">
                         <i className="bx bxl-linkedin contact__card-icon"></i>
-                        <h3 className="contact__card-title">LinedIn</h3>
-                        <span className="contact__card-data">Aharnish Solanki</span>
+                        <h3 className="contact__card-title">LinkedIn</h3>
+                        <span className="contact__card-data">Meet Jain</span>
 
-                        <a href="https://www.linkedin.com/in/aharnish-solanki-9794b017a/" className="contact__button">Connect on LinkedIn <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                        <a href="https://www.linkedin.com/in/www.linkedin.com/in/meetjain2504/" className="contact__button">Connect on LinkedIn <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                     </div>
 
                     <div className="contact__card">
                         <i className="bx bxl-github contact__card-icon"></i>
                         <h3 className="contact__card-title">GitHub</h3>
-                        <span className="contact__card-data">Ahar28</span>
+                        <span className="contact__card-data">Yame1725</span>
 
-                        <a href="https://github.com/Ahar28" className="contact__button">Check my projects<i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                        <a href="https://github.com/Yame1725" className="contact__button">Check my projects<i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                     </div>
  
                 </div>

@@ -19,7 +19,7 @@ const Header = () => {
     <header className="header">
         <nav className="nav container">
             <a href="index.html" className="nav__logo">
-                Aharnish
+                Meet
             </a>
             
             <div className={Toggle ? "nav__menu show-menu":"nav_menu"}>
